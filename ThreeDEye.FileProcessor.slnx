@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/ThreeDEye.FileProcessor.Benchmarks/ThreeDEye.FileProcessor.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ThreeDEye.FileProcessor.Generator/ThreeDEye.FileProcessor.Generator.csproj" />
+    <Project Path="src/ThreeDEye.FileProcessor.Sorter/ThreeDEye.FileProcessor.Sorter.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/ThreeDEye.FileProcessor.Generator.IntegrationTests/ThreeDEye.FileProcessor.Generator.IntegrationTests.csproj" />
+    <Project Path="tests/IntegrationTests/ThreeDEye.FileProcessor.Sorter.IntegrationTests/ThreeDEye.FileProcessor.Sorter.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/ThreeDEye.FileProcessor.Generator.UnitTests/ThreeDEye.FileProcessor.Generator.UnitTests.csproj" />
+    <Project Path="tests/UnitTests/ThreeDEye.FileProcessor.Sorter.UnitTests/ThreeDEye.FileProcessor.Sorter.UnitTests.csproj" />
+  </Folder>
+</Solution>

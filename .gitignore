@@ -1,0 +1,24 @@
+## .NET build artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+
+## Test / benchmark output
+TestResults/
+BenchmarkDotNet.Artifacts/
+
+## Local performance data (generated, large)
+# Generated perf inputs/outputs are ignored, but the verifier source is required
+# because the README cites it as the evidence source for large-file validation.
+perf/*
+!perf/Verifier/
+perf/Verifier/bin/
+perf/Verifier/obj/
+data/
+*.processing

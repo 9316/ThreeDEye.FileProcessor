@@ -1,0 +1,5 @@
+root = true
+
+[*.cs]
+# Surface unnecessary using directives as build warnings so cleanup is compiler-verified.
+dotnet_diagnostic.IDE0005.severity = warning
